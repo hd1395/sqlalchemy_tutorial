@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # Define the SQLite database file
-DATABASE_URL = "mysql+pymysql://root:Hamad_1395@localhost/sqlalchemy_tut?charset=utf8mb4"
+DATABASE_URL = "mysql+pymysql://user:Passw0rd@localhost/sqlalchemy_tut?charset=utf8mb4"
 
 # Create a SQLAlchemy engine
 engine = create_engine(DATABASE_URL, echo=True)
